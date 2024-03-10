@@ -1,14 +1,85 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100" data-bs-theme="auto">
   <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarah's Mystery</title>
+	<link rel="icon" href="img/icon-250x250.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      body {
+        background-image: url('img/background.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+
+    <link href="sm.css" rel="stylesheet">
   </head>
-  <body>
+
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="mask w-100">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            <!-- TODO: Fix logo in nav bar -->
+            <img src="img/icon-250x250.png" class="rounded float-start img-fluid" style="max-width: 10%" alt="Sarah's Mystery logo">
+            <!-- <h3 class="float-md-start mb-0">Sarah's Mystery</h3> -->
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">Products</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
+
+        <main class="px-3">
+          <h1>Hi my little treasures! I'm working on my website.</h1>
+          <p class="lead">I, Sarah, lead a haven celebrating allure and self-celebration through lingerie. My passion lies in the transformative power of lingerie, seeing it as a means to embrace uniqueness, unveil confidence, and celebrate individuality. My mission goes beyond fabric, aiming to empower and redefine the essence of beauty through my work.</p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+          <h5>Follow me on <a href="https://msha.ke/sarahsmystery" class="text-white">social media</a>.</h5>
+        </footer>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <h1>Hello, World!</h1>
-    <p>This is a test.</p>
   </body>
 </html>
